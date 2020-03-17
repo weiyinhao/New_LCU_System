@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>912</width>
+    <height>571</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>聊城大学教务系统</string>
+  </property>
+  <widget class="QLabel" name="lab_background">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>20</y>
+     <width>611</width>
+     <height>481</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+  <widget class="QGroupBox" name="groupBox">
+   <property name="geometry">
+    <rect>
+     <x>630</x>
+     <y>10</y>
+     <width>271</width>
+     <height>491</height>
+    </rect>
+   </property>
+   <property name="title">
+    <string/>
+   </property>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>30</y>
+      <width>91</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+      <pointsize>12</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>用户登录</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="user_Edit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>80</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="psw_Edit">
+    <property name="geometry">
+     <rect>
+      <x>60</x>
+      <y>140</y>
+      <width>201</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="echoMode">
+     <enum>QLineEdit::Password</enum>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>学号:</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>140</y>
+      <width>41</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>密码:</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_ForgetPaw">
+    <property name="geometry">
+     <rect>
+      <x>152</x>
+      <y>200</y>
+      <width>111</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Devanagari</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>忘记密码了？</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="enabled">
+     <bool>false</bool>
+    </property>
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>250</y>
+      <width>251</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">
+QPushButton#pButtonOk
+{
+    color:white;
+    background-color:rgb(14 , 150 , 254);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+
+QPushButton#pButtonOk:hover
+{
+    color:white;
+    background-color:rgb(44 , 137 , 255);
+    border: 1px solid rgb(11 , 137 , 234);
+}
+
+QPushButton#pButtonOk:pressed
+{
+    color:white;
+    background-color:rgb(14 , 135 , 228);
+    border: 1px solid rgb(12 , 138 , 235);
+    padding-left:3px;
+    padding-top:3px;
+}
+
+QPushButton#pButtonCancel
+{
+    color:black;
+    background-color:rgb(238 , 238 , 238);
+    border: 1px solid rgb(183 , 183 , 183);
+}
+
+QPushButton#pButtonCancel:hover
+{
+    color:black;
+    background-color:rgb(228 , 240 , 250);
+    border: 1px solid rgb(15 , 150 , 255);
+}
+
+QPushButton#pButtonCancel:pressed
+{
+    color:black;
+    background-color:rgb(204 , 228 , 247);
+    border: 1px solid rgb(1 , 84 , 153);
+    padding-left:3px;
+    padding-top:3px;
+}</string>
+    </property>
+    <property name="text">
+     <string>登录</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_Authentication">
+    <property name="geometry">
+     <rect>
+      <x>120</x>
+      <y>320</y>
+      <width>141</width>
+      <height>28</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Adobe Devanagari</family>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>统一身份认证登录</string>
+    </property>
+    <property name="flat">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="lab_code">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>370</y>
+      <width>91</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_6">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>370</y>
+      <width>121</width>
+      <height>101</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>黑体</family>
+     </font>
+    </property>
+    <property name="text">
+     <string>用手机扫一扫,
+安全、便捷登录</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>30</x>
+     <y>520</y>
+     <width>851</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>黑体</family>
+    </font>
+   </property>
+   <property name="text">
+    <string>版权所有© Copyright 1999-2019 正方软件股份有限公司　　中国·杭州西湖区紫霞街176号 互联网创新创业园2号301</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignCenter</set>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>btn_login</sender>
+   <signal>clicked()</signal>
+   <receiver>Form</receiver>
+   <slot>check_login()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>718</x>
+     <y>276</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>657</x>
+     <y>668</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>psw_Edit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>Led_is_text()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>777</x>
+     <y>165</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>770</x>
+     <y>-35</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>user_Edit</sender>
+   <signal>textChanged(QString)</signal>
+   <receiver>Form</receiver>
+   <slot>Led_is_text()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>841</x>
+     <y>96</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>816</x>
+     <y>-27</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>check_login()</slot>
+  <slot>Led_is_text()</slot>
+ </slots>
+</ui>

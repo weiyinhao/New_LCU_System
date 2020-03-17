@@ -1,0 +1,19 @@
+<RCC>
+  <qresource prefix="newPrefix">
+    <file>ico_but8.png</file>
+    <file>ico_but71.png</file>
+    <file>ico_but55.png</file>
+    <file>ico_but65.png</file>
+    <file>ico_but7.png</file>
+    <file>ico_but8.png</file>
+    <file>ico_but21.png</file>
+    <file>ico_but25.png</file>
+    <file>ico_but29.png</file>
+    <file>ico_but8.png</file>
+    <file>ico_but73.png</file>
+    <file>ico_but76.png</file>
+    <file>ico_but81.png</file>
+    <file>ico_but58.png</file>
+    <file>ico_but60.png</file>
+  </qresource>
+</RCC>
